@@ -1,2 +1,5 @@
-# Packets-to-Security
-My journey of learning Computer Networking and Cybersecurity, covering networking fundamentals, security concepts, protocols, and practical knowledge.
+# Packets to Security
+
+Welcome to my Networking and Cybersecurity learning journey.
+
+This repository contains notes, concepts, examples, and practical knowledge related to networking and cybersecurity.
