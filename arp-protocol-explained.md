@@ -1,4 +1,5 @@
 ARP Protocol (Address Resolution Protocol) – The Network's Matchmaker
+
 #Introduction
 
 Have you ever wanted to send a letter to someone but only knew their address and not their name? Computers face a similar situation in a network. They often know the IP address of the device they want to communicate with, but they also need the device's MAC address to actually deliver the data.
