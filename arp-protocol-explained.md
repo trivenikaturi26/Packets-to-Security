@@ -15,23 +15,29 @@ While IP addresses help locate a device, data on a local network is ultimately d
 ##How ARP Works
 
 Imagine your computer wants to send data to another device on the same network.
+
 Step 1: Looking for the Device
 Your computer knows the destination IP address but not the MAC address. It sends a message to all devices on the network:
 "Who has this IP address? Please tell me your MAC address."
 This message is called an ARP Request.
+
 Step 2: The Device Responds
 The device with that IP address recognizes the request and replies:
 "That's me! Here is my MAC address."
 This response is called an ARP Reply.
+
 Step 3: Saving the Information
 Your computer stores this IP-to-MAC mapping in a small temporary table called the ARP Cache.
+
 Step 4: Sending the Data
 Now that the MAC address is known, the data can be delivered directly to the correct device.
+
 A Simple Real-Life Example
 Think of a college campus:
 IP Address = Classroom number
 MAC Address = Student's ID card
 ARP = Asking, "Who is sitting in Classroom 101?"
+
 Once the student identifies themselves, communication becomes easy.
 ARP Cache: Remembering Previous Answers
 Instead of asking the same question repeatedly, computers save recently discovered IP and MAC address pairs in an ARP Cache.
@@ -40,6 +46,7 @@ This makes communication faster and reduces unnecessary network traffic.
 ##ARP and Network Security
 
 ARP is very useful, but it has a weakness: it trusts replies without verifying them.
+
 Attackers can take advantage of this using a technique called ARP Spoofing. They send fake ARP replies, tricking devices into sending data to the wrong destination.
 To reduce this risk, networks use:
 Static ARP entries
